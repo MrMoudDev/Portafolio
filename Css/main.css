@@ -1,0 +1,29 @@
+body {
+    margin: 1px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+header .container-nav {
+    display: flex;
+    font-size: 17px;
+    height: 120px;
+    position: sticky;
+    background-color: #EEE4E1;
+    color: #0E0F19;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+header .container-nav img {
+    width: 75px;
+    position: absolute;
+    left: 45px;
+    top: 20px;
+}
+header nav a:hover {
+    color: #0E0F19;
+}
+.item-nav {
+    display: inline-block;
+    padding: 4%;
+}
